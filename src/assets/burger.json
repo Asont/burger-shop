@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-01.png",
+    "title": "CRISPY CHICKEN",
+    "description": "Fried chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
+    "types": [0],
+    "sizes": ["small", "medium", "large"],
+    "price": 2.99,
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-02.png",
+    "title": "ULTIMATE BACON",
+    "description": "House beef patty, cheddar cheese, bacon, onion, mustard",
+    "types": [0,1],
+    "sizes": ["small", "medium", "large"],
+    "price": 2.49,
+    "category": 0,
+    "rating": 3.5
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-06.png",
+    "title": "SMOKEY HOUSE",
+    "description": "Beef patty, cheddar cheese, onion, lettuce, tomatoes, pickles",
+    "types": [0,1],
+    "sizes": ["small", "medium", "large"],
+    "price": 3.99,
+    "category": 0,
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-05.png",
+    "title": "TURKEY BURGER",
+    "description": "Turkey, cheddar cheese, onion, lettuce, tomatoes, pickles",
+    "types": [0,1],
+    "sizes": ["small", "medium", "large"],
+    "price": 3.99,
+    "category": 0,
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-03.png",
+    "title": "BLACK SHEEP",
+    "description": "American cheese, tomato relish, avocado, lettuce, red onion",
+    "types": [0,1],
+    "sizes": ["small", "medium", "large"],
+    "price": 4.99,
+    "category": 0,
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-04.png",
+    "title": "DOUBLE BURGER",
+    "description": "2 beef patties, cheddar cheese, mustard, pickles, tomatoes",
+    "types": [0,1],
+    "sizes": ["small", "medium", "large"],
+    "price": 4.99,
+    "category": 0,
+    "rating": 3.5
+  },
+  {
+    "id": 6,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-07.png",
+    "title": "CLASSIC BURGER",
+    "description": "Beef, cheddar cheese, ketchup, mustard, pickles, onion",
+    "types": [0,1],
+    "sizes": ["small", "medium", "large"],
+    "price": 2.35,
+    "category": 0,
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "imageUrl": "https://jthemes.net/themes/html/testo/files/images/menu/burger-08.png",
+    "title": "VEGAN BURGER",
+    "description": "Mushroom patty, vegan cheese, lettuce, tomatoes, avocado",
+    "types": [0,1],
+    "sizes": ["small", "medium", "large"],
+    "price": 5.99,
+    "category": 0,
+    "rating": 4
+  }
+]

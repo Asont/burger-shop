@@ -1,15 +1,29 @@
 .container{
+  padding: 5px;
   width:200px;
   height: 300px;
   border:1px solid #bdbdbd;
+  text-align: left;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
   img{
     width:150px;
     height: 120px;
+  }
+  h3,p{
+    margin: 0;
+  }
+  .sizes{
+    display: flex;
+    padding:10px;
+    span{
+      margin-right: 20px;
+    }
   }
 }
