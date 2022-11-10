@@ -7,7 +7,7 @@ export const Main = () => {
 
     const birgerItem = burgerItems.map((i, index) => {
         return (
-            <Item category={i.category} img={i.imageUrl} description={i.description} name={i.title} key={index} sizes={i.sizes}/>
+            <Item category={i.category} img={i.imageUrl} description={i.description} name={i.title} key={index} sizes={i.sizes} types={i.types}/>
         )
     })
 

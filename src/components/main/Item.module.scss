@@ -1,8 +1,7 @@
-.container{
+.container {
   padding: 5px;
-  width:200px;
-  height: 300px;
-  border:1px solid #bdbdbd;
+  width: 200px;
+  height: 350px;
   text-align: left;
   border-radius: 5px;
   display: flex;
@@ -11,19 +10,72 @@
   align-items: center;
   margin: 10px;
   box-sizing: border-box;
-  flex-wrap: wrap;
-  img{
-    width:150px;
+
+
+  .conteinerForTypesAndSizes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 5px;
+
+    .containerForTypes {
+      display: flex;
+
+      p {
+        margin: 0 5px;
+        padding: 2px;
+        cursor: pointer;
+      }
+
+      .activeType {
+        background-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .sizes {
+        display: flex;
+        padding: 10px;
+      }
+    }
+
+    span {
+      margin: 0 5px;
+      padding: 2px;
+      cursor: pointer;
+    }
+    .activeSize {
+      background-color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+
+  img {
+    width: 150px;
     height: 120px;
   }
-  h3,p{
-    margin: 0;
+
+  h3,  {
+    margin: 8px 0;
   }
-  .sizes{
-    display: flex;
-    padding:10px;
-    span{
-      margin-right: 20px;
+p{
+  margin: 8px 0 8px 8px;
+}
+
+  .btn {
+    height: 34px;
+    margin-top: 14px;
+    width: 106px;
+    border-radius: 12px;
+    border: none;
+    background-color: #f7cca0;
+
+    &:hover {
+      background-color: #ff9600;
+      cursor: pointer;
     }
   }
 }
